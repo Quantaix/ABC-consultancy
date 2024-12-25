@@ -1,0 +1,119 @@
+/* Top bar */
+.myclass{
+    
+    color: white;
+    
+}
+.h{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.c{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.co{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.top-bar {
+    position: fixed;
+    top: 0;
+    width: 99.5%;
+    background-color: rgb(0, 128, 128);
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 20px; 
+    margin-left: -1%;
+}
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+/* Top bar */
+
+
+.main{
+    text-align: center;
+    margin: 180px;
+    background:rgb(224, 63, 63) ;
+    padding: 40 px;
+    border-radius: 90px;
+}
+#contact {
+    
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background:#DEB887;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+}
+
+.box h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.box p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.box input,
+.box textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.box textarea {
+    height: 100px;
+    resize: none;
+}
+
+.box button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.box button:hover {
+    background: #555;
+}
+body{
+    background-image: url(pics/5.png);
+}

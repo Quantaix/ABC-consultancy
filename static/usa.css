@@ -1,0 +1,87 @@
+/* Top bar */
+.myclass{
+    
+    color: white;
+    
+}
+.h{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.c{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.co{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.top-bar {
+    position: fixed;
+    top: 0;
+    width: 99.5%;
+    background-color: rgb(0, 128, 128);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 20px; 
+    margin-left: -1%;
+}
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+/* Top bar */
+
+
+.myclass1 h1{
+    position: relative;
+    display: flex;
+    color: rgb(255, 242, 3);
+    font-size: 700%;
+    font-style: italic;
+    margin-top: -10%;
+}
+.helloqwe{
+    text-align: var(10px);
+}
+.cont{
+    background:rgb(129, 243, 239) ;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+.headau{
+    background:rgb(159, 129, 243) ;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin-left: 18%;
+    font-size: 500%;
+}
+.imglink{
+    margin-left: 5%;
+}
+body{
+    background-color: rgb(250, 219, 174,0.8);
+}

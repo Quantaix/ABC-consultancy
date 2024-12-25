@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='contact.css')}}">
+</head>
+
+<body>
+    <header class="top-bar">
+        <h1 class="myclass">ABC consultancy</h1>
+        <nav>
+            <li class="nav-links">
+                <a href="{{'home'}}" target="_blank" class="h">Home</a>
+                <a href="{{'about'}}" target="_blank" class="a">About Us</a>
+                <a href="{{'countries'}}" target="_blank" class="c">Countires</a>
+                <a href="{{'contact'}}" target="_blank" class="co">Contact Us</a>
+            </li>
+        </nav>
+
+    </header>
+    <section id="contact" class="content contact">
+        <div class="box">
+            <h2>Contact Us</h2>
+            <p>Feel free to reach out to us with any inquiries. We are here to help you on your journey.</p>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
